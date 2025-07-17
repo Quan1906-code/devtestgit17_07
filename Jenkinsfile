@@ -1,4 +1,4 @@
-pipeline {
+﻿pipeline {
     agent any
 
     environment {
@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Quan1906-code/devtestgit17_07.git'
+                git branch: 'main', url: 'https://github.com/Quan1906-code/devtestgit17_07.git'
             }
         }
 
