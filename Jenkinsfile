@@ -1,4 +1,4 @@
-pipeline {
+﻿pipeline {
     agent any
 
     environment {
@@ -8,7 +8,7 @@ pipeline {
 
         // Thay đổi theo Docker Hub của bạn
         DOCKERHUB_CREDENTIALS = 'devtestjen17_07'        // ID bạn tạo ở Jenkins Credential
-        DOCKER_IMAGE_NAME = 'quan1906/devtestgit17_07' // Tên repo Docker Hub của bạn
+        DOCKER_IMAGE_NAME = 'wan066/devtestgit17_07' // Tên repo Docker Hub của bạn
         DOCKER_TAG = 'v1'
     }
 
